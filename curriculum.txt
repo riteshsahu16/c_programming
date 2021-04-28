@@ -1,0 +1,60 @@
+Programming, Data Structures & Algorithms
+8 Month (May - December 2021)
+************************************************************
+Section0: Pre-requisites
+
+Section1: Introduction
+
+Section2: Types, Operators and Expressions  
+            (Bit Manupulation)
+
+Section3: Control Flow
+
+Section4: Functions 
+
+Section5: Pointers & Arrays
+
+Section6: Structures
+
+Section7: I/O
+
+Section8: *nix system interface
+
+************************************************************
+Basic:
+Arrays (1d, 2-d)
+    - Prefix & Suffix Sum
+    - Kadane's Algorithm
+    - Searching & Sorting
+    - Matrix Problems
+    - Traversal/Rotation
+
+Strings
+    - String matching algorithm
+    
+Basic Algorithms
+    - Two Pointers Technique
+    - Sliding Window Technique
+Binary Search
+************************************************
+Data Structuring
+Recursion & Backtracking
+Linked List
+Complexity Analysis
+Stacks
+Queues
+Number Theory-1
+Trees
+Search Trees
+Graphs
+Graph Theory-1
+Hash Tables
+Priority Queues & Heaps
+Dynamic Programming
+Trie, Segment Trees, Suffix Trees,Suffix Arrays
+Greedy
+Disjoint Data Structures Basics (disjoint-set) 
+Greedy Technique
+Graph Theory-2
+Dynamic Programming
+**********************************************************
