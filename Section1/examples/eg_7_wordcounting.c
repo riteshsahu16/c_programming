@@ -5,8 +5,8 @@ int main()
 {
 	//count lines, words and characters in input 
 	int nw, nl, nc, ch, state;
-	nw =1 ; nl = nc = 0;
-	
+	nw = nl = nc = 0;
+	state = OUT;	
 	while((ch = getchar()) != EOF)
 	{
 		nc++;
@@ -14,9 +14,7 @@ int main()
 		if(ch == '\n')
 			nl++;
 		if(ch == ' ' || ch == '\t' || ch == '\n')
-		{
 			state = OUT;
-		}
 		else if(state==OUT)
 		{
 			state = IN;
