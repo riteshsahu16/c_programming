@@ -5,15 +5,12 @@
 int main()
 {
 	int ch, n=0, data[MAX], len=0, state = OUT, i, j=0, max=0;
-	
 	for(i=0; i<MAX; i++)
 	{
 		data[i] = 0;
 	}
-	
 	while ((ch=getchar()) != EOF)
 	{
-
 		//get length of words and put it in array
 		if(ch == ' ' || ch == '\t' || ch=='\n')
 		{
@@ -37,7 +34,6 @@ int main()
 			}
 		}
 	}
-	
 	//print data
 	printf("data : \n");
 	for(i = 0; i<n; i++)
@@ -57,7 +53,7 @@ int main()
 	for(i=n; i>0; i--)
 	{
 		printf("%d|",i);
-		for(j=0; j<=data[i-1]; j++)
+		for(j=0; j<data[i-1]; j++)
 			printf("-");
 		printf("\n");
 	}
@@ -66,7 +62,6 @@ int main()
 	printf("Vertical Histogram : \n\n");
 	
 	//Vertical histogram
-	
 	for(i=max; i>0; i--)
 	{
 		//printf("|");
@@ -85,5 +80,6 @@ int main()
 	for(i=1; i<=n; i++)
 		printf("%d ", i);
 	printf("\n");
+	return 0;
 
 }
