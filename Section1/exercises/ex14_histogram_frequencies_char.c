@@ -55,28 +55,7 @@ int main()
 		}
 	}
 	printf("\n");
-
-	//Vertical Histogram
-	for(i=max; i>0; i--)
-	{
-		for(j=0; j<SIZE; j++)
-		{
-			val = character[j];
-			if(val >= i)
-				printf("| ");
-			else
-				printf("  ");
-		}
-		printf("\n");
-	}
-
-
-
-
-
-
-
-
-
+		
+	return 0;
 }
 
